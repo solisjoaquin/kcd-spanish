@@ -34,6 +34,10 @@ Si no sabes usar Markdown te comparto un [link](https://guides.github.com/featur
 * imagenes `![]()`
 * codigo ` ``` codigo ``` `
 
+Si quieres sumarte, puedes contactarme para decir que post quieres traducir asi no hacemos el mismo.
+
+Te comparto un tutorial de como hacer un pull request a un repo publico: [link](https://www.youtube.com/watch?v=_M8oalUyz10)
+
 Cualquier aporte es bienvenido! (:
 
 Si estas interesado en traducir una publicacion de Kent y subirlo a este repo, puedes mandarme un MD a [@joaquin__solis](https://twitter.com/joaquin__solis)
