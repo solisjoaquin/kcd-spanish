@@ -28,11 +28,11 @@ finished
 Todo esto puede estar sujeto a cambios. 
 
 Si no sabes usar Markdown te comparto un [link](https://guides.github.com/features/mastering-markdown/) donde se explica facilmente, pero no es muy complicado (: Los elementos más usados serán:
-* titulo #
-* subtitulo ##
-* links []()
-* images ![]()
-* codigo ``` codigo ````
+* titulo `#titulo`
+* subtitulo `##subtitulo`
+* links `[]()`
+* images `![]()`
+* codigo ` ``` codigo ``` `
 
 Cualquier aporte es bienvenido! (:
 
