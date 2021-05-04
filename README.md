@@ -8,7 +8,7 @@ En este repo podras leer algunos de los posts de Kent C. Dodds en español.
 
 Los archivos estarán subidos en formato .md o .mdx.
 
-La estructura de cada post traducido seguira la manera en que Kent tiene sus posts en su repo.
+La estructura de cada post a traducir seguirá la manera en que Kent tiene sus posts en su repo.
 
 ```
 blog  
@@ -31,7 +31,7 @@ Si no sabes usar Markdown te comparto un [link](https://guides.github.com/featur
 * titulo `#titulo`
 * subtitulo `##subtitulo`
 * links `[]()`
-* images `![]()`
+* imagenes `![]()`
 * codigo ` ``` codigo ``` `
 
 Cualquier aporte es bienvenido! (:
