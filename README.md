@@ -36,4 +36,4 @@ Si no sabes usar Markdown te comparto un [link](https://guides.github.com/featur
 
 Cualquier aporte es bienvenido! (:
 
-Si estas interesado en traducir una publicacion de Kent y subirlo a este repo, puedes mandarme un md a [@joaquin__solis](https://twitter.com/joaquin__solis)
+Si estas interesado en traducir una publicacion de Kent y subirlo a este repo, puedes mandarme un MD a [@joaquin__solis](https://twitter.com/joaquin__solis)
