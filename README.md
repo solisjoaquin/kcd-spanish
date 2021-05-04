@@ -2,6 +2,8 @@
 
 **This repo is NON OFICIAL and is not maintained by Kent** [(Kent's tweet)](https://twitter.com/kentcdodds/status/1389362431873339398)
 
+Link al blog original de Kent: [https://kentcdodds.com/blog](https://kentcdodds.com/blog)
+
 En este repo podras leer algunos de los posts de Kent C. Dodds en español. 
 
 Los archivos estarán subidos en formato .md o .mdx.
