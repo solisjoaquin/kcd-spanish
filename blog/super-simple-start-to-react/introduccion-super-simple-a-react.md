@@ -1,8 +1,8 @@
 # introduccion super simple a React
 
-La implementacion mas simple imaginable de React
+La implementacion mas simple imaginable de React: 
 
-```
+```html
 <html>
   <body>
     <div id="root"></div>
@@ -28,7 +28,7 @@ El siguiente parrafo será básicamente una versión simple de lo que puedes ver
 
 Comenzemos con este archivo HTML
 
-```
+```html
 <html>
   <body></body>
 </html>
@@ -38,7 +38,7 @@ Comenzemos con este archivo HTML
 
 Muy bien, crearemos nodos en el DOM usando JavaScript y los colocaremos en un contenedor o nodo llamado "root". Así que agreguemos eso:
 
-```
+```html
 <html>
   <body>
     <div id="root"></div>
@@ -48,7 +48,7 @@ Muy bien, crearemos nodos en el DOM usando JavaScript y los colocaremos en un co
 
 Le damos el ID al root para que sea más fácil encontrar ese nodo del DOM en nuestro JavaScript. Agreguemos eso a continuación:
 
-```
+```html
 <html>
   <body>
     <div id="root"></div>
@@ -61,7 +61,7 @@ Le damos el ID al root para que sea más fácil encontrar ese nodo del DOM en nu
 
 Genial, ahora que tenemos rootElement, creemos un elemento DOM para ponerlo dentro:
 
-```
+```html
 <html>
   <body>
     <div id="root"></div>
