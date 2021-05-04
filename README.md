@@ -1,6 +1,6 @@
 # Kent C. Dodds en Español (:
 
-**This repo is NON OFICIAL and is not mantained by Kent** [(Kent's tweet)](https://twitter.com/kentcdodds/status/1389362431873339398)
+**This repo is NON OFICIAL and is not maintained by Kent** [(Kent's tweet)](https://twitter.com/kentcdodds/status/1389362431873339398)
 
 En este repo podras leer algunos de los posts de Kent C. Dodds en español. 
 
@@ -11,10 +11,19 @@ La estructura de cada post traducido seguira la manera en que Kent tiene sus pos
 ```
 blog  
     |
-    nombre-del-post
+    nombre-del-post en ingles
                   |__archivo .md en ingles
                   |__archivo .md en español
 ```
+
+Tambien agregamos una carpeta llamada "finished" para subir los archivos que ya esten traducidos al 100%. La idea de esto es facilitar la lectura si solo quieren leer un post en español.
+
+```
+finished
+        |__archivo .md con el nombre del post en español
+```
+
+Todo esto puede estar sujeto a cambios. 
 
 Cualquier aporte es bienvenido! (:
 
