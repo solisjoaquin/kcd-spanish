@@ -1,4 +1,4 @@
-# ¿En que proyecto open source debo contribuir?
+# ¿En que proyecto open source deberia contribuir?
 
 _Mi respuesta mágica a esta pregunta que se plantea con frecuencia y cómo empezar_
 
