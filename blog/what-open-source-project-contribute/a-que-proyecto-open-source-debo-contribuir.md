@@ -1,5 +1,7 @@
 # ¿A que proyecto open source debo contribuir?
 
+[link al post original](https://kentcdodds.com/blog/what-open-source-project-should-i-contribute-to)
+
 _Mi respuesta mágica a esta pregunta que se plantea con frecuencia y cómo empezar_
 
 Esta es una pregunta que he tenido innumerables veces:
