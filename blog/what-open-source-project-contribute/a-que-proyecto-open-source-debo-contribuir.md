@@ -1,8 +1,11 @@
 # ¿A que proyecto open source debo contribuir?
 
+_Mi respuesta mágica a esta pregunta que se plantea con frecuencia y cómo empezar_
+
 [link al post original](https://kentcdodds.com/blog/what-open-source-project-should-i-contribute-to)
 
-_Mi respuesta mágica a esta pregunta que se plantea con frecuencia y cómo empezar_
+![image](https://kentcdodds.com/static/8eb47efec37ad756b3a13a7c72bbd0c2/c6969/banner.webp)
+
 
 Esta es una pregunta que he tenido innumerables veces:
 
@@ -26,28 +29,28 @@ Donde he encontrado la mayor satisfacción de contribuir al código abierto es e
 
 ¿Qué librerias/frameworks/herramientas de código abierto utiliza regularmente? Quizás estes trabajando con Webpack y sientas que una opción en la configuración podría mejorarse o documentarse mejor. O tal vez estes trabajando con una biblioteca de React o Vue que podría necesitar un pequeño arreglo. Una cosa es segura: sea lo que sea que esté creando, probablemente esté utilizando un proyecto o herramienta de código abierto en el que podrías beneficiarte personalmente al contribuir.
 
-Paso 1: Abra su `package.json` y lea las dependencias que tiene. Piensa en tu experiencia de aprendizaje y uso de ese módulo. ¿Recuerdas haber luchado con uno de ellos? Elige ese.
+Paso 1: Abre tu `package.json` y lee las dependencias que tiene. Piensa en tu experiencia de aprendizaje y uso de ese módulo. ¿Recuerdas haber luchado con uno de ellos? Elige ese.
 
 ## Contribución
-Una vez que haya encontrado el proyecto al que desea contribuir, ¿cómo sabe qué contribuir? Muchos proyectos tienen un archivo [CONTRIBUTING](https://github.com/blog/1184-contributing-guidelines). Busque eso primero para encontrar instrucciones para contribuir al proyecto. Si no hay uno, puede haber instrucciones en el archivo `README` (que normalmente se muestra en la página de inicio del proyecto). Si no existen tales instrucciones, puedes enviar un pull request para agregar solo un archivo esqueleto de `CONTRIBUTING.md` para iniciar una conversación sobre cómo agregar uno.
+Una vez que hayas encontrado el proyecto al que deseas contribuir, ¿cómo sabes qué contribuir? Muchos proyectos tienen un archivo [CONTRIBUTING](https://github.com/blog/1184-contributing-guidelines). Busca eso primero para encontrar instrucciones para contribuir al proyecto. Si no hay uno, puede haber instrucciones en el archivo `README` (que normalmente se muestra en la página de inicio del proyecto). Si no existen tales instrucciones, puedes enviar un pull request para agregar solo un archivo esqueleto de `CONTRIBUTING.md` para iniciar una conversación sobre cómo agregar uno.
 
 Familiarízate con el proyecto. Leer documentación es bueno, pero mi forma favorita de aprender cómo funciona un proyecto es leyendo el código. Mi forma favorita de hacer esto es agregar un `debugger` antes de llamar a una función de la libreria o cuando una libreria llama a mi función y salta por la call stack, así:
 
 
 https://twitter.com/kentcdodds/status/1135687475110670341
 
-Revise el código y aprenderá mucho sobre cómo funciona el framework/library. No te preocupes si no comprendes lo que está sucediendo de inmediato. Eso vendrá con el tiempo. Síguelo. ¡Puedes hacerlo! Puedes hacer lo mismo con herramientas no basadas en navegador con su [node debugger](https://code.visualstudio.com/docs/editor/debugging) favorito (o agregar console.logs).
+Revisa el código y aprenderás mucho sobre cómo funciona el framework/libreria. No te preocupes si no comprendes lo que está sucediendo de inmediato. Eso vendrá con el tiempo. Síguelo. ¡Puedes hacerlo! Puedes hacer lo mismo con herramientas no basadas en un navegador con su [node debugger](https://code.visualstudio.com/docs/editor/debugging) favorito (o agregar console.logs).
 
-Una vez que hayas descubierto los estándares y procesos para contribuir al proyecto y te hayas familiarizado un poco con su funcionamiento interno, deberá identificar los cambios que el proyecto necesita. Te recomiendo que analices los problemas existentes y comentes los que consideres interesantes. ¡Trabaje con el (los) encargado (s) para identificar una buena implementación y [haz tu pull request](https://help.github.com/articles/creating-a-pull-request)!
+Una vez que hayas descubierto los estándares y procesos para contribuir al proyecto y te hayas familiarizado un poco con su funcionamiento interno, deberás identificar los cambios que el proyecto necesita. Te recomiendo que analices los problemas existentes y comentes los que consideres interesantes. ¡Trabaja con el(los) encargado(s) para identificar una buena implementación y [haz tu pull request](https://help.github.com/articles/creating-a-pull-request)!
 
-Si tienes tu idea propia de como corregir un bug o una función que desees implementar, te recomiendo encarecidamente que la ejecute el encargado del proyecto en un [GitHub issue](https://guides.github.com/features/issues) primero. Quizás dirán que está fuera del alcance del proyecto o que están trabajando en él, o podrían darle alguna dirección. Perderás menos tiempo asegurándote de que tu solicitud de extracción sea aceptada antes de hacerlo (al igual que estaba seguro de que mi esposa respondería "sí" cuando le pedí que se casara conmigo antes de pedírselo 😃).
+Si tienes tu idea propia de como corregir un bug o una función que desees implementar, te recomiendo encarecidamente que la ejecute el encargado del proyecto en un [GitHub issue](https://guides.github.com/features/issues) primero. Quizás dirán que está fuera del alcance del proyecto o que están trabajando en él, o podrían darte alguna dirección. Perderás menos tiempo asegurándote de que tu solicitud de extracción sea aceptada antes de hacerlo (al igual que estaba seguro de que mi esposa respondería "sí" cuando le pedí que se casara conmigo antes de pedírselo 😃).
 
 
 _Tambien, mira [esta pagina](http://24pullrequests.com/contributing) para mas tips de como contribuir._
 
 ## Tu primer Pull Request
 
-Para tu primer [pull request](https://help.github.com/articles/using-pull-requests), siéntete libre de encontrar un proyecto aleatorio con un bug/feature e intenta contribuir. Hágale saber al encargado del proyecto que usted es nuevo y que necesita una guía para aprender cómo entrar en él. Tal vez estén demasiado ocupados para ayudar, si es así, siga adelante y busque otro proyecto. Esa primera contribución es la más difícil, es posible que desee un poco de ayuda y entrenamiento. La contribución real del código importa menos que aprender el proceso. Así que busque un proyecto o alguien que tenga tiempo y paciencia para guiarlo.
+Para tu primer [pull request](https://help.github.com/articles/using-pull-requests), siéntete libre de encontrar un proyecto aleatorio con un bug/feature e intenta contribuir. Házle saber al encargado del proyecto que eres nuevo y que necesitas una guía para aprender cómo entrar en él. Tal vez estén demasiado ocupados para ayudar, si es así, sigue adelante y busca otro proyecto. Esa primera contribución es la más difícil, es posible que desees un poco de ayuda y entrenamiento. La contribución real del código importa menos que aprender el proceso. Así que busca un proyecto o alguien que tenga tiempo y paciencia para guiarlo.
 
 
 Quizas estes interesado en mi curso **gratis** en egghead.io 
@@ -86,4 +89,4 @@ Contribuir al código abierto [ha sido fantástico para mí ](https://kentcdodds
 
 Por cierto, si estás interesado en crear tu propio proyecto, asegúrate de revisar mi serie en egghead.io:
 
-[**How to Write an Open Source JavaScript Library**](https://egghead.io/series/how-to-write-an-open-source-javascript-library)
+[**How to Write an Open Source JavaScript Library**](https://egghead.io/courses/how-to-write-an-open-source-javascript-library)
