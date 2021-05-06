@@ -41,7 +41,7 @@ test('the increment method increments count', () => {
 })
 ```
 
-Entonces, ¿por qué esto es testing de implementación de detalles? ¿Por qué es tan malo testear los detalles de la implementación? Aquí hay dos verdades sobre las pruebas que se enfocan en detalles de implementación como la prueba mencionada arriba:
+Entonces, ¿por qué esto es testing de detalles de implementacion? ¿Por qué es tan malo testear los detalles de la implementación? Aquí hay dos verdades sobre las pruebas que se enfocan en detalles de implementación como la prueba mencionada arriba:
 
 1.    Puedo romper el código y no el test (por ejemplo: podría cometer un error tipográfico en la asignación onClick de mi botón)
 
