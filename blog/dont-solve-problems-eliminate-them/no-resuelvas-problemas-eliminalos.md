@@ -39,42 +39,47 @@ Eliminación de problemas en la vida real
 
 Tesla es un buen ejemplo de esto. Al ser 100% electricos han logrado eliminar un sinfin de partes y procesos que habian sido standard en la industria durante decadas. Esto los ha liberado para ellos entonces poder concentrarse en su enfoque alternativo.
 
-And as an EV owner, switching from gas to electric allows me to eliminate problems like "where do I get an oil change" or worries that the transmission will blow or that I'll need new break pads, etc etc etc. (EVs require very little maintenance because there are just so fewer parts that can wear out and break).
+Como dueño de un carro eléctrico, haber cambiado de motor de combustión interna a un motor eléctrico me ha permitido eliminar problemas como "¿dónde le realizo el cambio de aceite a mi motor?", o preocupaciones de que quizás la trasmisión se va a estropear, las pastas de freno requieren cambio, y un largo etcétera. (Esto se debe a que los carros eléctricos requieren menos mantenimiento debido a que tienen una cantidad inferior de partes comparados con los carros tradicionales de combustión interna)
 
-[![Screenshot of a tesla livestream showing the model y giga casting machine with the words "40% rear underbody cost savings" and "-79 parts per car"](https://res.cloudinary.com/kentcdodds-com/image/upload/f_auto,q_auto,dpr_2.0/v1620835374/kentcdodds.com/blog/don-t-solve-problems-eliminate-them/giga_casting_dymoig.png)](https://youtu.be/l6T9xIeZTds?t=4767)
+[![Screenshot of a tesla livestream showing the model y giga casting machine with the words "40% rear underbody cost savings" and "-79 parts per car"](https://res.cloudinary.com/kentcdodds-com/image/upload/f_auto,q_auto,dpr_2.0/v1620835374/kentcdodds.com/blog/don-t-solve-problems-eliminate-them/giga_casting_dymoig.png)](https://youtu.be/l6T9xIeZTds?t=4767) 
+(40% de ahorro en costos en el cuerpo inferior) | (79 partes menos por carro)
 
-A more recent innovation of Tesla is the use of the "Gigapress" which allows them to make a single-piece casting of the entire back and front of the vehicle. This eliminates the need for dozens of robots to bolt and weld dozens of parts together.
+Una de las innovaciones más recientes de Tesla es el uso de la "Gigapress (la gigantoprensa)" la cual les permite forjar enteramente la parte trasera o delantera del vehículo a partir de una sola pieza 
+(en los carros tradicionales esto se hace en diferentes secciones y requiere muchas piezas). Este proceso elimina la necesidad de tener docenas de robots que estén atornillando y soldando las piezas unas a otras.
 
-Tesla is a fantastic example of problem elimination. Very interesting case study for anyone interested in manufacturing at a huge scale. Problem elimination is key to their success.
+Tesla es un fantástico ejemplo de eliminación de problemas. Un caso para estudiar para cualquier persona que esté interesada en la manufactura a gran escala. La eliminación de problemas es un factor decisivo de gran éxito.
 
-[](https://kentcdodds.com/blog/don-t-solve-problems-eliminate-them#coding-problem-elimination)Coding problem elimination
+Programando eliminación de problemas
 ------------------------------------------------------------------------------------------------------------------------
 
-Most of you reading probably don't manufacture at scale. You're building apps. So what are some code-related examples of problem elimination?
+La mayoría de los que están leyendo esto probablemente no manufacturamos a gran escala. Probablemente tú desarrolles aplicaciones. Entonces ¿cuáles son algunos de los ejemplos de eliminación de problemas relacionados con la programación? 
 
 [![React logo](https://res.cloudinary.com/kentcdodds-com/image/upload/f_auto,q_auto,dpr_2.0/v1620775101/kentcdodds.com/blog/don-t-solve-problems-eliminate-them/react_nlj9aq.png)](https://reactjs.org/)
 
-Years ago, to create a React component, we created a class that `extends React.Component`. We would add methods for different lifecycle events we wanted to handle. This worked well for years, but a big sticking point was code reuse. A given "concern" (or feature) could have code spread across any or all of `constructor`, `componentDidMount`, `componentDidUpdate`, `componentWillUnmount`, and `render`. Creating reusable abstractions that required code in each of those lifecycles was a challenge.
+Hace algunos años, para poder crear un componente en React, necesitábamos crear una clase que `"extiende React.Component"`. Agregaríamos métodos para diferentes eventos del ciclo de vida que quisiéramos manejar.Esto funcionó bien durante algunos años, pero un gran problema con esto era la reutilización del código. Una "preocupacion" (o característica) podia tener codigo distribuido en cualquiera o todos los `constructores`, `componentDidMount`, `componentDidUpdate`, `componentWillUnmount`, y `render`. Crear abstracciones reutilizables en cada uno de estos "ciclos de vida" era todo un reto.
 
-The React team and community came up with ideas like "Higher Order Components" and "Render Props" to solve these problems. For a long time this seemed like a pretty good solution. There were rough edges (nesting and false hierarchy issues with render props or terrible typing support and prop indirection/clashes for HOCs), but we'd pretty much gotten used to these problems as a community and the solution worked pretty well.
+El equipo y la comunidad de React propusieron ideas como "Componentes de orden superior" y "Accesorios de renderizado" para resolver estos problemas. Durante mucho tiempo, esto pareció una solución bastante buena. Hubo algunas "asperezas" (problemas de "nesting" y jerarquías falsas con accesorios de renderizado o soporte de escritura terrible y direccionamiento indirecto / choques de accesorios para los HOCs), pero, como comunidad nos habíamos acostumbrado a estos problemas y la solución funcionaba bastante bien.
 
-Then the React team changed the game entirely and introduced hooks. With hooks, code reuse is trivial and obvious. You share code with React hooks the same way you share regular JavaScript code: make a function. They completely eliminated the problem and we no longer feel the pain that led us to HOCs or render props except for very specific scenarios.
+Luego, el equipo de React cambió el juego por completo e introdujo "hooks" (ganchos). Con los "hooks", la reutilización del código es trivial y obvia. Compartes código con los hooks de React de la misma manera que compartes código en JavaScript vainilla: crea una función. Eliminaron por completo el problema, ya no sentimos la frustración que nos llevó a los HOCs o los accesorios de renderizado, excepto en escenarios muy específicos.
 
-As another quick example: early in the React world, the only officially supported way to get state and functions from one place to another in React is to pass props. This led to "prop drilling" where you have to pipe props through components all over your app. This was a huge pain. There was a note in the docs about a "context" API that existed, but its use was strongly discouraged directly in the docs.
+Otro pequeño ejemplo: al principio de React, la única forma oficialmente admitida de obtener "estado" y las funciones de un lugar a otro en React era pasar accesorios. Esto llevó a una "perforación de accesorios" en la que tienes que canalizar accesorios a través de componentes en toda tu aplicación. Esto era un gran dolor. Había una nota en los documentos sobre una API de "contexto" que existía, pero se desaconsejaba directamente en los documentos.
 
-Then redux came on the scene and solved prop drilling (among other things) and people jumped on it quick. Redux actually *used* the context API, but because it was hidden behind a library people weren't worried about the warning in the docs (most didn't even know they were indirectly using context).
+Luego, redux entró en escena y resolvió la perforación de accesorios (entre otras cosas) y la gente se cambio a redux rápidamente. Redux en realidad *usó* la API de "contexto", pero debido a que estaba oculta detrás de una biblioteca, a la gente no le preocupaba la advertencia en los documentos (la mayoría ni siquiera sabía que estaban usando la API de "contexto" indirectamente).
 
-However, when context became official, and when hooks made it much easier to use, many people found that the primary problem for which they were using redux (getting state around their app) had been eliminated with a built-in approach, and dropped redux in favor of the new approach.
+Sin embargo, cuando el "contexto" se volvió oficial, y cuando los "hooks" lo hicieron mucho más fácil de usar, muchas personas descubrieron que el problema principal para el cual estaban usando redux (obtener el "estado" en diferentes partes de su aplicación) se había eliminado con un enfoque integrado, y eliminó redux a favor del nuevo enfoque.
 
-(To be clear, there are other reasons people use redux, but in days before official context, this was the primary pain that drove people to redux).
+(Para ser claros, hay otras razones por las que las personas usan redux, pero antes de que el "contexto" fuera oficial, esta fue la principal razon que llevó a las personas a usar redux).
 
 [![Remix logo](https://res.cloudinary.com/kentcdodds-com/image/upload/f_auto,q_auto,dpr_2.0/v1620776599/kentcdodds.com/blog/don-t-solve-problems-eliminate-them/remix-on-light_har5s6.png)](https://remix.run/)
 
-Remix is another great example of a problem eliminator. They've taken a completely different approach to building applications with React and eliminated a bunch of problems in the process.
+Remix es otro gran ejemplo de una eliminación de problemas. Han adoptado un enfoque completamente diferente para crear aplicaciones con React y han eliminado un montón de problemas en el proceso.
 
-People coming from other metaframeworks very quickly fall in love with the built-in support for nested routing. Among other things, this eliminates the problem of shared layout components. If you know the frustration, you understand what I mean. If you don't... lucky you.
+Las personas que vienen de otros metaframeworks se enamoran rápidamente del soporte integrado para el enrutamiento "anidado" (nested). Entre otras cosas, esto elimina el problema de los componentes de diseño compartidos. Si conoces la frustración, entiendes lo que quiero decir. Si no lo haces ... que suerte la que tienes.
 
-Because Remix exposes a direct API to the response cache headers, you can have all the primary benefits of static site generators with no need to do "intelligent" incremental rebuilds (which is an enormously complex solution to a real problem faced by the SSG approach).
+Debido a que Remix expone una API directa a los encabezados de la caché de respuesta, puede tener todos los beneficios principales de los generadores de sitios estáticos sin necesidad de realizar reconstrucciones incrementales "inteligentes" (que es una solución enormemente compleja para un problema real que enfrenta el enfoque SSG).
+
+Debido a la forma en que Remix te permite cargar sus datos en una función `loader` en el mismo archivo que tu componente, se elimina el problema de la obtención de datos en exceso (simplemente filtras lo que no necesita en el` loader` así que solo envías lo que se necesita por cable) y se elimina un gran problema que lleva a las personas a clientes graphql (para ser claros, Remix funciona con graphql, simplemente no tiene que usar un cliente graphql complejo del lado del cliente con Remix para evitar más de buscar). Remix también solo recupera los datos de los * diseños cambiados * en una transición de página (algo que realmente solo puede hacer con el enrutamiento anidado), lo que elimina aún más el problema de búsqueda excesiva.
+
 
 Because of the way Remix allows you to load your data in a `loader` function in the same file as your component, the problem of data over fetching is eliminated (you just filter out what you don't need in the `loader` so you only send what's needed over the wire) and a big problem that drives people to graphql clients is eliminated (to be clear, Remix works with graphql, you just don't have to use a complex client-side graphql client with Remix to avoid over fetching). Remix also only fetches the data for the *changed layouts* on a page transition (something you can only really do with nested routing), further eliminating the over fetching problem.
 
