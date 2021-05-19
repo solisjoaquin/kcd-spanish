@@ -117,3 +117,5 @@ Quiero animarlos a todos a aceptar y adherirse a la solución de problemas de la
 El mayor desafío es asegurarnos de que nuestra eliminación de problemas no cree problemas mayores. Pero cuando logres hacer esto, puedes mejorar drásticamente las cosas para ti y para todos los que disfrutan de lo que has creado. ¡Arriésgate, comete errores y elimina problemas!
 
 [2021-05-11](https://github.com/kentcdodds/kentcdodds.com/commits/main/content/blog/don-t-solve-problems-eliminate-them/index.mdx)
+
+traducido por: @dani1995ar
