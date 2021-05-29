@@ -64,7 +64,7 @@ Luego, el equipo de React cambió el juego por completo e introdujo "hooks" (gan
 
 Otro pequeño ejemplo: al principio de React, la única forma oficialmente admitida de obtener "estado" y las funciones de un lugar a otro en React era pasar parámetros. Esto llevó a una "perforación de parámetros" en la que tienes que canalizar parámetros a través de componentes en toda tu aplicación. Esto era un gran dolor. Había una nota en los documentos sobre una API de "contexto" que existía, pero se desaconsejaba directamente en los documentos.
 
-Luego, redux entró en escena y resolvió la perforación de parámetros (entre otras cosas) y la gente se cambió a redux rápidamente. Redux en realidad *usó* la API de "contexto", pero debido a que estaba oculta detrás de una biblioteca, a la gente no le preocupaba la advertencia en los documentos (la mayoría ni siquiera sabía que estaban usando la API de "contexto" indirectamente).
+Luego, redux entró en escena y resolvió la perforación de parámetros (entre otras cosas) y la gente se cambió a redux rápidamente. Redux en realidad *usó* la API de "contexto", pero debido a que estaba oculta detrás de una librería, a la gente no le preocupaba la advertencia en los documentos (la mayoría ni siquiera sabía que estaban usando la API de "contexto" indirectamente).
 
 Sin embargo, cuando el "contexto" se volvió oficial, y cuando los "hooks" lo hicieron mucho más fácil de usar, muchas personas descubrieron que el problema principal para el cual estaban usando redux (obtener el "estado" en diferentes partes de su aplicación) se había eliminado con un enfoque integrado, y eliminó redux a favor del nuevo enfoque.
 
@@ -84,7 +84,7 @@ Ya que Remix admite `<form>` directamente, no tienes que preocuparte por el cant
 
 Debido a que Remix hace un "re-call" a tus "loaders" en caso de cambios, no necesitas preocuparte por la invalidación del caché.
 
-Adicionalmente debido a que Remix te permite especificar las etiquetas("tags") de `link` incluidas, ruta por ruta, no necesitas preocuparte porque los cambios de CSS en una página puedan afectar a los de otra página. Ese problema se ha eliminado por completo y ahora tal vez lo puedas pensar dos veces antes de utilizar a una biblioteca CSS-in-JS para resolver este problema. Porque el problema simplemente no existe cuando se usa Remix.
+Adicionalmente debido a que Remix te permite especificar las etiquetas("tags") de `link` incluidas, ruta por ruta, no necesitas preocuparte porque los cambios de CSS en una página puedan afectar a los de otra página. Ese problema se ha eliminado por completo y ahora tal vez lo puedas pensar dos veces antes de utilizar a una librería CSS-in-JS para resolver este problema. Porque el problema simplemente no existe cuando se usa Remix.
 
 Debido a que Remix es un "framework" enfocado en la mejora progresiva, no necesitas preocuparte por si tu aplicación funcionará en una red poco confiable donde el JS no se carga por alguna razón.
 

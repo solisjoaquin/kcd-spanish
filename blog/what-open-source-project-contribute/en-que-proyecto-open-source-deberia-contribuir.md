@@ -25,9 +25,9 @@ Mi respuesta mágica proviene de mi publicación [Open Source Stamina](https://k
 
 > Contribuyes mejor a algo que usas regularmente
 
-Donde he encontrado la mayor satisfacción de contribuir al código abierto es en proyectos que me importan a mí y (posiblemente) a otros. Y luego contribuir a ese proyecto con regularidad. Para hacer eso, debe comprender los casos de uso y los problemas asociados con una herramienta o biblioteca en particular. Por eso digo que es mejor _contribuir a algo que usas con regularidad_.
+Donde he encontrado la mayor satisfacción de contribuir al código abierto es en proyectos que me importan a mí y (posiblemente) a otros. Y luego contribuir a ese proyecto con regularidad. Para hacer eso, debe comprender los casos de uso y los problemas asociados con una herramienta o librería en particular. Por eso digo que es mejor _contribuir a algo que usas con regularidad_.
 
-¿Qué librerias/frameworks/herramientas de código abierto utiliza regularmente? Quizás estes trabajando con Webpack y sientas que una opción en la configuración podría mejorarse o documentarse mejor. O tal vez estes trabajando con una biblioteca de React o Vue que podría necesitar un pequeño arreglo. Una cosa es segura: sea lo que sea que esté creando, probablemente esté utilizando un proyecto o herramienta de código abierto en el que podrías beneficiarte personalmente al contribuir.
+¿Qué librerías/frameworks/herramientas de código abierto utiliza regularmente? Quizás estes trabajando con Webpack y sientas que una opción en la configuración podría mejorarse o documentarse mejor. O tal vez estes trabajando con una librería de React o Vue que podría necesitar un pequeño arreglo. Una cosa es segura: sea lo que sea que esté creando, probablemente esté utilizando un proyecto o herramienta de código abierto en el que podrías beneficiarte personalmente al contribuir.
 
 Paso 1: Abre tu `package.json` y lee las dependencias que tiene. Piensa en tu experiencia de aprendizaje y uso de ese módulo. ¿Recuerdas haber luchado con uno de ellos? Elige ese.
 
